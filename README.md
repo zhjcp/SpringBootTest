@@ -28,7 +28,7 @@
 
 ### 1. 知识框架
 
-<img src="D:\MarkDown\Typora\assets\images\image-20210119221823349.png" alt="image-20210119221823349" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003622.png" alt="image-20210119221823349" style="zoom: 67%;" />
 
 
 
@@ -40,7 +40,7 @@
 
 - **微服务架构图示**
 
-<img src="D:\MarkDown\Typora\assets\images\image-20210119225151850.png" alt="image-20210119225151850" style="zoom: 80%;" />
+<img src="https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003637.png" alt="image-20210119225151850" style="zoom: 80%;" />
 
 - **微服务架构VS单体应用架构**
   - 在分布式系统中，使用单体应用架构，每个服务器中放置的都是整个应用的完整副本，多个副本的作用是均衡服务器的负载。
@@ -81,35 +81,35 @@
 
 方式2：IDEA  Springboot官网或者镜像网址【推荐】
 
-![image-20210120123552476](D:\MarkDown\Typora\assets\images\image-20210120123552476.png)
+![image-20210120123552476](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003645.png)
 
 网络错误：
 
-![image-20210120123900271](D:\MarkDown\Typora\assets\images\image-20210120123900271.png)
+![image-20210120123900271](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003652.png)
 
 解决（使用镜像）：
 
-![image-20210120135139460](D:\MarkDown\Typora\assets\images\image-20210120135139460.png)
+![image-20210120135139460](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003700.png)
 
 相关设置
 
-![image-20210120135159475](D:\MarkDown\Typora\assets\images\image-20210120135159475.png)
+![image-20210120135159475](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003709.png)
 
 web可以在pom.xml中再配置，效果一样
 
-![image-20210120135213627](D:\MarkDown\Typora\assets\images\image-20210120135213627.png)
+![image-20210120135213627](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003744.png)
 
 删除一些不必要的文件
 
-![image-20210120140414753](D:\MarkDown\Typora\assets\images\image-20210120140414753.png)
+![image-20210120140414753](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003752.png)
 
 启动类
 
-![image-20210120142455098](D:\MarkDown\Typora\assets\images\image-20210120142455098.png)
+![image-20210120142455098](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003759.png)
 
 配置文件
 
-![image-20210120142514903](D:\MarkDown\Typora\assets\images\image-20210120142514903.png)
+![image-20210120142514903](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003806.png)
 
 Springboot的依赖
 
@@ -219,7 +219,7 @@ Springboot的依赖
 
 ​			只需要添加一个banner.txt文件
 
-![image-20210120143141973](D:\MarkDown\Typora\assets\images\image-20210120143141973.png)
+![image-20210120143141973](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003818.png)
 
 
 
@@ -296,13 +296,13 @@ public class Springboot01Application {
 
 ### **4. 自动配置的核心文件**
 
-![image-20210120173601028](D:\MarkDown\Typora\assets\images\image-20210120173601028.png)
+![image-20210120173601028](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003828.png)
 
 
 
 ### **5. 流程图**
 
-<img src="D:\MarkDown\Typora\assets\images\自动配置原理.jpg" alt="自动配置原理" style="zoom:200%;" />
+<img src="https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210214003836.jpg" alt="自动配置原理" style="zoom:200%;" />
 
 
 
