@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf测试</title>
+</head>
+<body>
+    <div>
+        <!--  普通的html标签  -->
+        <h1 text="${msg}">  普通的HTML标签</h1>
+        <!--  所有的html元素都可以被thymeleaf接管,
+                语法结构： th：元素名
+                作用：可以给html元素附加额外的功能，比如：表达式
+         -->
+        <h1 th:text="${msg}">  使用thymeleaf后的HTML标签</h1>
+    </div>
+
+    <div>
+        <!--  循环遍历方式1（推荐）  -->
+        <h3 th:each="user:${userList}" th:text="${user}"></h3>
+        <!--  循环遍历方式2  被中括号包围的部分相当于被转译了-->
+        <h3 th:each="user:${userList}">[[${user}]]</h3>
+    </div>
+</body>
+</html>

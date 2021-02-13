@@ -1,0 +1,52 @@
+# yaml: 除了可以保存键值对，还能保存数组、对象！还能使用一些语法
+#       对空格的要求十分严格
+
+# 一、概述
+############################################################
+# 1. 键值对
+name: zhhust
+
+
+# 2. 数组
+# 写法一
+array1:
+  - 1
+  - 2
+  - 3
+# 写法二
+array2: [1,2,3]
+
+# 3. 对象
+# 写法一
+student1:
+  name: zhhust
+  pwd: 123456
+# 写法二
+student2: {name: zhhust,pwd: 123456}
+
+# 4. 一些语法
+person:
+  ID: ${random.uuid} #EL表达式
+  flag: ${person.ID:false} #三目表达式
+  name: zhjsr303
+  age: 6
+  email: 123456
+
+
+# 二、结合JavaConfig给实体类赋值
+##############################################################
+people:
+  name: zhhust
+  age: 6
+  happy: true
+  birth: 2015/1/21
+  maps: {k1: v1,k2: v2}
+  lists:
+    - girl
+    - dog
+    - computer
+  dog:
+    name: 旺财
+    age: 3
+
+debug: true
