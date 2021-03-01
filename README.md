@@ -453,7 +453,7 @@ public class Springboot01Application {
 
 - ​    两种配置文件可以共存，但没必要
 
-  ​	![image-20210121130307679](D:\MarkDown\Typora\assets\images\image-20210121130307679.png)
+  ​	![image-20210121130307679](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110706.png)
 
 - ​    配置文件的作用
   
@@ -578,12 +578,12 @@ public class Springboot01Application {
 
 - 源码位置
 
-  <img src="D:\MarkDown\Typora\assets\images\image-20210121165649293.png" alt="image-20210121165649293" style="zoom:50%;" />
+  <img src="https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110707.png" alt="image-20210121165649293" style="zoom:50%;" />
 
   可以根据源码自定义JSR303校验！！！
 
   - 最简单的自定义：修改默认提示语message：
-  - ![image-20210121165819370](D:\MarkDown\Typora\assets\images\image-20210121165819370.png)
+  - ![image-20210121165819370](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110708.png)
 
 - 示例
 
@@ -705,7 +705,7 @@ public class Springboot01Application {
 
     HttpEncodingAutoConfiguration 自动配置类  xxx在这里是HttpEncoding
 
-    ![image-20210121230633174](D:\MarkDown\Typora\assets\images\image-20210121230633174.png)
+    ![image-20210121230633174](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110709.png)
 
     源码解析：     
 
@@ -794,7 +794,7 @@ public class Springboot01Application {
     
   - 上面的例子中的properties类是ServerProperties类，其源码如下：
     
-      ![image-20210121233539855](D:\MarkDown\Typora\assets\images\image-20210121233539855.png)
+      ![image-20210121233539855](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110710.png)
     
       说明：@ConfigurationProperties注解绑定了该类与配置文件中的`server`
       
@@ -808,17 +808,17 @@ public class Springboot01Application {
 
   - 例如：
 
-    ServerProperties配置类        xxx在这里就是server<img src="D:\MarkDown\Typora\assets\images\image-20210121224735454.png" alt="image-20210121224735454" style="zoom:80%;" />
+    ServerProperties配置类        xxx在这里就是server<img src="https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110711.png" alt="image-20210121224735454" style="zoom:80%;" />
 
     在配置文件中自定义修改对应的属性值，如：port
 
     - application.yaml中:
 
-    ![image-20210121224910195](D:\MarkDown\Typora\assets\images\image-20210121224910195.png)
+    ![image-20210121224910195](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110712.png)
 
     - application.properties中：
 
-      ![image-20210121225123353](D:\MarkDown\Typora\assets\images\image-20210121225123353.png)
+      ![image-20210121225123353](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110713.png)
 
 
 
@@ -948,9 +948,9 @@ public class Springboot01Application {
 
       - 可以在webjars官网找到对应的静态资源导入方式
 
-      - ![image-20210122142802421](D:\MarkDown\Typora\assets\images\image-20210122142802421.png)
+      - ![image-20210122142802421](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110714.png)
 
-      - ![image-20210122150915873](D:\MarkDown\Typora\assets\images\image-20210122150915873.png)
+      - ![image-20210122150915873](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110715.png)
 
         
 
@@ -1177,7 +1177,7 @@ private Resource getIndexHtml(String location) {
 
   - 官方关于mvc配置的说明：
 
-  ![image-20210123144202406](D:\MarkDown\Typora\assets\images\image-20210123144202406.png)
+  ![image-20210123144202406](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110716.png)
 
   - 拓展springMvc的方法：
 
@@ -1359,7 +1359,7 @@ private Resource getIndexHtml(String location) {
 
     ​					还注意到一个特殊的存在，即：thymeleaf的视图解析器
 
-    ![image-20210122223100776](D:\MarkDown\Typora\assets\images\image-20210122223100776.png)
+    ![image-20210122223100776](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110717.png)
 
     
 
@@ -1453,23 +1453,23 @@ Springboot项目的根目录是指什么？
 
 ​	国际化的含义：网页在各种语言之间切换
 
-- IDEA设置统一编码，防止乱码<img src="D:\MarkDown\Typora\assets\images\image-20210123212212973.png" alt="image-20210123212212973" style="zoom:80%;" />
+- IDEA设置统一编码，防止乱码<img src="https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110718.png" alt="image-20210123212212973" style="zoom:80%;" />
 
-  ![image-20210123212255234](D:\MarkDown\Typora\assets\images\image-20210123212255234.png)
+  ![image-20210123212255234](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110719.png)
 
   
 
 - 配置i18n文件；
 
-  - 创建配置文件![image-20210124133338790](D:\MarkDown\Typora\assets\images\image-20210124133338790.png)
+  - 创建配置文件![image-20210124133338790](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110720.png)
 
-  - 可视化编辑配置文件![image-20210124134300335](D:\ideaProjects\SpringbootTest\image-20210124134300335.png)
+  - 可视化编辑配置文件![image-20210124134300335](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110721.png)
 
-  - 配置后的效果（点击上图的login，再点击Text可切换到文本界面）![image-20210124134656935](D:\MarkDown\Typora\assets\images\image-20210124134656935.png)
+  - 配置后的效果（点击上图的login，再点击Text可切换到文本界面）![image-20210124134656935](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110722.png)
 
-    ![image-20210124134714685](D:\MarkDown\Typora\assets\images\image-20210124134714685.png)
+    ![image-20210124134714685](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110723.png)
 
-    ![image-20210124134728080](D:\MarkDown\Typora\assets\images\image-20210124134728080.png)
+    ![image-20210124134728080](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110724.png)
 
   - 类似地，依次给网页中的所有元素都设置key
 
@@ -1482,9 +1482,9 @@ Springboot项目的根目录是指什么？
 
     - 原理
 
-      - `MessageSourceAutoConfiguration` 类![image-20210124140252100](D:\MarkDown\Typora\assets\images\image-20210124140252100.png)
+      - `MessageSourceAutoConfiguration` 类![image-20210124140252100](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110725.png)
 
-      - `MessageSourceProperties ` 类![image-20210124140326134](D:\MarkDown\Typora\assets\images\image-20210124140326134.png)
+      - `MessageSourceProperties ` 类![image-20210124140326134](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110726.png)
 
       - 结论
 
@@ -1503,7 +1503,7 @@ Springboot项目的根目录是指什么？
 
         语法：Message Expressions: `#{...}` 
 
-        ![image-20210124142602393](D:\MarkDown\Typora\assets\images\image-20210124142602393.png)
+        ![image-20210124142602393](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110727.png)
 
 - 如果需要在项目中实现点击按钮切换语言，就要自定义一个`LocaleResolver`接口的解析器；
 
@@ -1601,7 +1601,7 @@ Springboot项目的根目录是指什么？
 
   ​	在自定义的配置类`MyMvcConfig`中,Bean的名字必须为localeResolver
 
-  ![img](D:\MarkDown\Typora\assets\images\20191027231128390.png)
+  ![img](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110728.png)
 
   ​	设置Bean的名字：
 
@@ -2006,7 +2006,7 @@ Springboot项目的根目录是指什么？
 
   - 在templete包下建立error包，放入404.html即可
 
-    ![image-20210127143805764](D:\MarkDown\Typora\assets\images\image-20210127143805764.png)
+    ![image-20210127143805764](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110729.png)
 
     
 
@@ -2053,11 +2053,11 @@ Springboot项目的根目录是指什么？
 
 - **搭建项目**
 
-  ![image-20210130211756118](D:\MarkDown\Typora\assets\images\image-20210130211756118.png)
+  ![image-20210130211756118](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110730.png)
 
-  ![image-20210130211817080](D:\MarkDown\Typora\assets\images\image-20210130211817080.png)
+  ![image-20210130211817080](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110731.png)
 
-  ![image-20210130211826422](D:\MarkDown\Typora\assets\images\image-20210130211826422.png)
+  ![image-20210130211826422](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110732.png)
 
 - **JDBC配置**
 
@@ -2471,7 +2471,7 @@ Springboot项目的根目录是指什么？
 
   在引入的依赖里包含了aop依赖
 
-  ![image-20210202133929846](D:\MarkDown\Typora\assets\images\image-20210202133929846.png)
+  ![image-20210202133929846](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110733.png)
 
 
 
@@ -2485,7 +2485,7 @@ Springboot项目的根目录是指什么？
     - 登录 && 注销
     - 我们可以像访问自己的页面一样，访问SpringSecurity自带的页面，如：
 
-![image-20210202152512176](D:\MarkDown\Typora\assets\images\image-20210202152512176.png)
+![image-20210202152512176](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110734.png)
 
 
 
@@ -2712,7 +2712,7 @@ Springboot项目的根目录是指什么？
 
 - Shiro提供的功能：
 
-  ![img](D:\MarkDown\Typora\assets\images\1.png)
+  ![img](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110735.png)
   - **Authentication**：身份认证 / 登录，验证用户是不是拥有相应的身份；
   - **Authorization**：授权，即权限验证，验证某个已认证的用户是否拥有某个权限；即判断用户是否能做事情，常见的如：验证某个用户是否拥有某个角色。或者细粒度的验证某个用户对某个资源是否具有某个权限；
   - **Session** **Management**：会话管理，即用户登录后就是一次会话，在没有退出之前，它的所有信息都在会话中；会话可以是普通 JavaSE 环境的，也可以是如 Web 环境的；
@@ -2737,7 +2737,7 @@ Springboot项目的根目录是指什么？
 
 - **Shiro的外部架构** ，即从应用程序角度的来观察如何使用 Shiro 完成工作：
 
-  ![img](D:\MarkDown\Typora\assets\images\2.png)
+  ![img](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110736.png)
 
   - **Subject**：主体，代表了当前 “用户”，这个用户不一定是一个具体的人，与当前应用交互的任何东西都是 Subject，如网络爬虫，机器人等；即一个抽象概念；所有 Subject 都绑定到 SecurityManager，与 Subject 的所有交互都会委托给 SecurityManager；可以把 Subject 认为是一个门面；SecurityManager 才是实际的执行者；
 
@@ -2756,7 +2756,7 @@ Springboot项目的根目录是指什么？
 
 - **Shiro的内部架构**：
 
-  ![img](D:\MarkDown\Typora\assets\images\3.png)
+  ![img](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110737.png)
 
   - **Subject**：**主体，可以看到主体可以是任何可以与应用交互的 “用户”；其功能类似于Web中的Session，但并不是Session（Shiro还有专门的Session）。可以在任意地方通过静态方法获取Subject及其内存储的当前用户数据**。
   - **SecurityManager**：相当于 SpringMVC 中的 DispatcherServlet ；是 Shiro 的心脏；所有具体的交互都通过 SecurityManager 进行控制；它管理着所有 Subject、且负责进行认证和授权、及会话、缓存的管理。
@@ -2995,7 +2995,7 @@ Springboot项目的根目录是指什么？
 
 - **运行结果**
 
-  ![image-20210204184011599](D:\MarkDown\Typora\assets\images\image-20210204184011599.png)
+  ![image-20210204184011599](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110738.png)
 
 
 
@@ -3313,13 +3313,13 @@ Springboot项目的根目录是指什么？
 
       如下图：该方法返回的是简单加密机制对应的接口
 
-      ![image-20210205165953082](D:\MarkDown\Typora\assets\images\image-20210205165953082.png)
+      ![image-20210205165953082](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110739.png)
 
     - 自定义或选择其他Shiro自带的加密方式
 
       如图，`CredentialsMatcher`接口就是上面提到的方法返回值，该接口有多个实现类，对应不同加密方式
 
-      ![image-20210205170604103](D:\MarkDown\Typora\assets\images\image-20210205170604103.png)
+      ![image-20210205170604103](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110740.png)
 
 
 
@@ -3399,7 +3399,7 @@ Springboot项目的根目录是指什么？
 
       如下图，是连续两次提交需要权限的请求的运行结果：
 
-    ![image-20210205205623524](D:\MarkDown\Typora\assets\images\image-20210205205623524.png)
+    ![image-20210205205623524](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110741.png)
 
 
 
@@ -3640,7 +3640,7 @@ Springboot项目的根目录是指什么？
 
   - 如下图，Swagger的首页主要分成四大块
 
-  ![image-20210206212141638](D:\MarkDown\Typora\assets\images\image-20210206212141638.png)
+  ![image-20210206212141638](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110742.png)
 
 ### 4. 自定义Swagger配置
 
@@ -3696,7 +3696,7 @@ Springboot项目的根目录是指什么？
   
     - 如下图，可以发现Swagger的首页已经发生了一些变动
   
-    ![image-20210206225100810](D:\MarkDown\Typora\assets\images\image-20210206225100810.png)
+    ![image-20210206225100810](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110743.png)
   
 - **接口扫描配置**
 
@@ -3828,7 +3828,7 @@ Springboot项目的根目录是指什么？
   }
   ```
 
-  ![image-20210207212813240](D:\MarkDown\Typora\assets\images\image-20210207212813240.png)
+  ![image-20210207212813240](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110744.png)
 
 ### 6.  **注释功能**
 
@@ -3877,7 +3877,7 @@ Springboot项目的根目录是指什么？
 
 - 测试效果：
 
-  ![image-20210207215648534](D:\MarkDown\Typora\assets\images\image-20210207215648534.png)
+  ![image-20210207215648534](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110745.png)
 
 
 
@@ -3885,15 +3885,15 @@ Springboot项目的根目录是指什么？
 
 - **要测试谁的接口就选谁的API文档**
 
-  ![image-20210207221132575](D:\MarkDown\Typora\assets\images\image-20210207221132575.png)
+  ![image-20210207221132575](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110746.png)
 
 - **根据提示输入数据即可测试请求**
 
-  ![image-20210207221747488](D:\MarkDown\Typora\assets\images\image-20210207221747488.png)
+  ![image-20210207221747488](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110747.png)
 
-  ![image-20210207222349360](D:\MarkDown\Typora\assets\images\image-20210207222349360.png)
+  ![image-20210207222349360](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110748.png)
 
-![image-20210207222238339](D:\MarkDown\Typora\assets\images\image-20210207222238339.png)
+![image-20210207222238339](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110749.png)
 
 
 
@@ -3970,15 +3970,15 @@ Springboot项目的根目录是指什么？
 
   - `JavaMailSenderImpl`已经实现了一些邮件操作，拿来即可使用，如下图：
 
-    ![image-20210208155541717](D:\MarkDown\Typora\assets\images\image-20210208155541717.png)
+    ![image-20210208155541717](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110750.png)
 
     
 
 - **开启邮箱协议**
 
-  ![image-20210208154108156](D:\MarkDown\Typora\assets\images\image-20210208154108156.png)
+  ![image-20210208154108156](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110751.jpg)
 
-  ![image-20210208160313324](D:\MarkDown\Typora\assets\images\image-20210208160313324.png)
+  ![image-20210208160313324](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110752.jpg)
 
 
 
@@ -4119,7 +4119,7 @@ Springboot项目的根目录是指什么？
 
 - 随着互联网的发展，网站应用的规模不断扩大，常规的垂直应用架构已无法应对，分布式服务架构以及流动计算架构势在必行，亟需一个治理系统确保架构有条不紊的演进。
 
-  ![image](D:\MarkDown\Typora\assets\images\dubbo-architecture-roadmap.jpg)
+  ![image](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110753.png)
 
 - 分布式是若干独立计算机的集合，但这些计算机对用户来说就像单个相关系统。
 
@@ -4197,7 +4197,7 @@ Springboot项目的根目录是指什么？
 
 - ##### Dubbo架构
 
-  ​	<img src="D:\MarkDown\Typora\assets\images\dubbo架构.jpg" alt="dubbo架构" style="zoom:50%;" />
+  ​	<img src="https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110754.png" alt="dubbo架构" style="zoom:50%;" />
 
   
 
@@ -4230,29 +4230,29 @@ Springboot项目的根目录是指什么？
 
 - zookeeper下载地址：https://archive.apache.org/dist/zookeeper/
 
-  ![image-20210209175336427](D:\MarkDown\Typora\assets\images\image-20210209175336427.png)
+  ![image-20210209175336427](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110755.png)
 
   
 
 - 启动Zookeeper：
 
-  - 加上一个`pause`防止闪退![image-20210209175754847](D:\MarkDown\Typora\assets\images\image-20210209175754847.png)
+  - 加上一个`pause`防止闪退![image-20210209175754847](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110756.png)
 
   - 将conf目录下的.cfg文件复制一份，并命名为zoo.cfg
 
-    ![image-20210209192516435](D:\MarkDown\Typora\assets\images\image-20210209192516435.png)
+    ![image-20210209192516435](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110757.png)
 
-    ![image-20210209192829293](D:\MarkDown\Typora\assets\images\image-20210209192829293.png)
+    ![image-20210209192829293](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110758.png)
 
   - Zookeeper运行结果
 
     - 运行`zkServer.cmd`  ---> 启动服务端
 
-      ![image-20210209192548990](D:\MarkDown\Typora\assets\images\image-20210209192548990.png)
+      ![image-20210209192548990](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110759.png)
 
     - 运行 `zkCli.cmd`  ---> 启动客户端  连接到cfg中指定的2081端口
 
-      ![image-20210209193145344](D:\MarkDown\Typora\assets\images\image-20210209193145344.png)
+      ![image-20210209193145344](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110800.png)
 
   
 
@@ -4264,7 +4264,7 @@ Springboot项目的根目录是指什么？
   通过键获取值： get /keyName
   ```
 
-  ![image-20210209202851789](D:\MarkDown\Typora\assets\images\image-20210209202851789.png)
+  ![image-20210209202851789](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110801.png)
 
   
 
@@ -4338,7 +4338,7 @@ Springboot项目的根目录是指什么？
 
       - maven打包
 
-        ![image-20210209210149371](D:\MarkDown\Typora\assets\images\image-20210209210149371.png)
+        ![image-20210209210149371](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110802.png)
 
     
 
@@ -4354,7 +4354,7 @@ Springboot项目的根目录是指什么？
 
     dubbo-admin连接到了Zookeeper服务器：
 
-    ![image-20210209212209354](D:\MarkDown\Typora\assets\images\image-20210209212209354.png)
+    ![image-20210209212209354](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110803.png)
 
     dubbo-admin网站的默认账户密码：
 
@@ -4527,7 +4527,7 @@ Springboot项目的根目录是指什么？
   
   - 把提供者的服务接口（非实现类）复制到消费者工程下，以便@DubboReference生效（待测试）
   
-    ![image-20210209233636760](D:\MarkDown\Typora\assets\images\image-20210209233636760.png)
+    ![image-20210209233636760](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110804.png)
   
     
   
@@ -4535,17 +4535,17 @@ Springboot项目的根目录是指什么？
 
   - Zookeeper与provider、consumer关联
 
-    ![image-20210209232620648](D:\MarkDown\Typora\assets\images\image-20210209232620648.png)
+    ![image-20210209232620648](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110805.png)
 
   - 消费者请求服务成功
 
-    ![image-20210209232544465](D:\MarkDown\Typora\assets\images\image-20210209232544465.png)
+    ![image-20210209232544465](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110806.png)
 
   - dubbo-admin监控情况
 
-    ![image-20210209233214612](D:\MarkDown\Typora\assets\images\image-20210209233214612.png)
+    ![image-20210209233214612](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110807.png)
 
-    ​	![image-20210209233302497](D:\MarkDown\Typora\assets\images\image-20210209233302497.png)
+    ​	![image-20210209233302497](https://raw.githubusercontent.com/zhjcp/PicGoResp/main/img/20210301110808.png)
 
 
 
